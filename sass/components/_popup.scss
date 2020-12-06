@@ -49,13 +49,13 @@
 
     &__text {
         font-size: 1.4rem;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
 
         -moz-column-count: 2;
         -moz-column-gap: 4rem; //1em = 14px;
         -moz-column-rule: 1px solid $color-grey-light-2;
 
-        column-count: 2;
+        // column-count: 2;
         column-gap: 4rem; //1em = 14px;
         column-rule: 1px solid $color-grey-light-2;
 
@@ -64,7 +64,11 @@
         -webkit-hyphens: auto;
         hyphens: auto;
     }
-
+    &__start {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
     //Open states
     &:target {
         opacity: 1;
