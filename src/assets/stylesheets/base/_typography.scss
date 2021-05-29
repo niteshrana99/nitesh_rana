@@ -1,0 +1,19 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.heading {
+    &_primary {
+        font-size: 5rem;
+    }
+
+    &_secondary {
+        font-size: 3rem;
+    }
+
+    &_tertiary {
+        font-size: 2rem;
+    }
+}

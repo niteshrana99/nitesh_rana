@@ -1,0 +1,70 @@
+.intro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    padding: 12rem 2rem;
+    max-width: 120rem;
+    margin: 0 auto;
+
+    @include respond(tab-port) {
+        padding: 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_text {
+        padding: 2.5rem;
+    }
+
+    &_info {
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+
+    &_photo_container {
+        background: $color-black;
+        width: 36rem;
+        height: 32rem;
+     
+    }
+
+    &_photo {
+        width: 30rem;
+        height: 30rem;
+        margin-top: 3rem;
+        margin-left: 3rem;
+        
+    }
+
+    &_heading {
+        font-size: 6.4rem;
+        font-weight: 400;
+    }
+}
+
+.round_btn {
+    border-radius: 1000px;
+    background: $color-blue;
+    border:none;
+    padding: 18px 48px;
+    font-size: 24px;
+    color: $color-white;
+    font-weight: 500;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+.round_btn:hover {
+    background: transparent;
+    transform: scale(1.075);
+    box-shadow: inset 0 0 0 2px $color-blue;
+}
+
+.round_btn_article:hover {
+    background: transparent;
+    color: black;
+    transform: scale(1.075);
+    box-shadow: inset 0 0 0 2px $color-blue;
+}

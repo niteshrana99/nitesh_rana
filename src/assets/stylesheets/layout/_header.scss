@@ -1,0 +1,9 @@
+.site_header {
+    background-color: #191a1d;
+    color: $color-white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    @include respond(tab-port) {
+        clip-path: none;
+    }
+    // height: 120vh;
+}

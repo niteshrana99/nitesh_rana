@@ -1,0 +1,26 @@
+.site_about_heading {
+    text-decoration: underline;
+    text-underline-offset: 2rem;
+}
+
+.footer_section {
+    background-color: #191a1d;
+    color: white;
+    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%)
+}
+
+.brand_heading {
+    text-align: center;
+    width: 40%;
+    margin:0px auto
+}
+
+.companies_info {
+    background-color: #e4f5f2;
+}
+
+@media screen and (max-width: 600px) {
+    .brand_heading { 
+        width: auto;
+    }
+}

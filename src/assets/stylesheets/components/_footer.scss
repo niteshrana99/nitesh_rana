@@ -1,0 +1,42 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 80%;
+    margin: 0px auto;
+    justify-content: center;
+    align-content: center;
+    padding: 14rem;
+
+    &_left {
+        justify-self: center;
+
+        &_heading {
+            font-size: 4.25rem;
+            margin-bottom: 1.4rem;
+        }
+
+        &_text {
+            color: rgba(255,255,255,.5);
+            font-size: 2.625rem;
+            margin-bottom: 4rem;
+        }
+    }
+
+    &_right {
+        justify-self: center;
+        font-size: 2.5rem;
+        align-self: center;
+    }
+
+    &_list {
+        list-style: none;
+        @include respond(tab-land) {
+            display: none;
+        }
+        
+    }
+
+    &_list-item:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}

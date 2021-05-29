@@ -1,0 +1,16 @@
+.brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    column-gap:2rem;
+
+    &_container {
+        // border: 1px solid;
+        padding: 2rem;
+        height: auto;
+        background-size: cover;
+    }
+}

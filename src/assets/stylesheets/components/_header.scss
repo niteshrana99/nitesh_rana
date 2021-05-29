@@ -1,0 +1,81 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    &_logo {
+        color: $color-white;
+        font-weight: 600;
+        font-size: 3rem;
+        margin: 3rem;
+        cursor: pointer;
+        font-family: 'Sofia' !important;
+        list-style: none;
+        @include respond(tab-port) {
+            font-size: 8rem;
+        }
+
+        @include respond(phone) {
+            font-size: 2rem;
+        }
+    }
+
+    &_logo::after {
+        content: "";
+        max-width: 30%;
+        height: 0.6rem;
+        background: $color-blue;
+        display: block;
+        border-radius: 10rem;
+        margin-top: 0.8px;
+        transition:max-width ease 0.3s;
+    }
+
+    &_logo:hover::after {
+        max-width: 10%;
+    }
+
+    &_menu_list {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 3rem;
+
+        @include respond(tab-land) {
+            display: none;
+        }
+    }
+
+    &_list_item {
+        margin: 1rem 1rem;
+        cursor: pointer;
+        position: relative;
+        font-size: 2.5rem;
+        color: grey;
+    }
+
+    &_list_item::after {
+        transform: translateX(-50%);
+        content: "";
+        width: 20%;
+        height: 0.6rem;
+        background: $color-blue;
+        display: block;
+        border-radius: 10rem;
+        margin-top: 0.8rem;
+        opacity: 0;
+        transition: all ease .3s;
+        position: absolute;
+        left: 50%;
+    }
+
+    &_list_item:hover::after {
+        width: 60%;
+        opacity: 1;
+    }
+
+    &_list_item:hover {
+        color: $color-white;
+        transition: all ease .2s;
+    }
+}

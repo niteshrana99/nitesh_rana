@@ -1,0 +1,70 @@
+.hexItemContainer {
+	display: grid;
+	grid-template-rows: repeat(auto-fit, 1fr);
+	justify-items: center;
+	text-align: center;
+}
+.hexContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr ));
+	width: 80%;
+    margin: 0px auto;
+	justify-items: center;
+	cursor: pointer;
+
+	
+
+	&_hexagon {
+		height: 10rem;
+		width: 10rem;
+		filter: drop-shadow(-0px 2px 6px rgba(100, 100, 100, 0.5));
+		height: 12rem;
+		width: 12rem;
+		transition: all 0.4s;
+
+		&:hover {
+			filter: drop-shadow(-2px 7px 10px rgba(100, 100, 100, 0.5));
+			transform: scale(1.09);
+		}
+	
+		&::before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: linear-gradient(-120deg, $color-blue 0%, #FFFFFF 100%);
+			-webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+					clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+		}
+	
+		& > .text {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			width: 60%;
+			text-align: center;
+			font-weight: bold;
+			color: #DA627D;
+			z-index: 2;
+		}
+	  }
+
+	  &_caption {
+
+		& , span {
+			font-size: 1.8rem;
+			font-weight: 400;
+		}
+
+		&_desc {
+			font-size: 1.4rem;
+			color: grey;
+			width: 80%;
+			margin: 0px auto;
+		}
+		
+	  }
+}
