@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nitesh-portfolio/static/css/main.eca7c128.chunk.css",
+    "main.js": "/nitesh-portfolio/static/js/main.8ac7bd30.chunk.js",
+    "main.js.map": "/nitesh-portfolio/static/js/main.8ac7bd30.chunk.js.map",
+    "runtime-main.js": "/nitesh-portfolio/static/js/runtime-main.65081cb8.js",
+    "runtime-main.js.map": "/nitesh-portfolio/static/js/runtime-main.65081cb8.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/nitesh-portfolio/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.b1344053.chunk.js": "/nitesh-portfolio/static/js/2.b1344053.chunk.js",
+    "static/js/2.b1344053.chunk.js.map": "/nitesh-portfolio/static/js/2.b1344053.chunk.js.map",
+    "static/js/3.3d1a72dc.chunk.js": "/nitesh-portfolio/static/js/3.3d1a72dc.chunk.js",
+    "static/js/3.3d1a72dc.chunk.js.map": "/nitesh-portfolio/static/js/3.3d1a72dc.chunk.js.map",
+    "index.html": "/nitesh-portfolio/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/nitesh-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.eca7c128.chunk.css.map": "/nitesh-portfolio/static/css/main.eca7c128.chunk.css.map",
+    "static/js/2.b1344053.chunk.js.LICENSE.txt": "/nitesh-portfolio/static/js/2.b1344053.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/nitesh-portfolio/static/media/social_media.dadab0b6.woff",
+    "static/media/cover.d6635470.png": "/nitesh-portfolio/static/media/cover.d6635470.png",
+    "static/media/mindtree-logo_bw.25041676.png": "/nitesh-portfolio/static/media/mindtree-logo_bw.25041676.png",
+    "static/media/preqin.49af46ef.png": "/nitesh-portfolio/static/media/preqin.49af46ef.png",
+    "static/media/profile.8830bcea.jpeg": "/nitesh-portfolio/static/media/profile.8830bcea.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65081cb8.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.b1344053.chunk.js",
+    "static/css/main.eca7c128.chunk.css",
+    "static/js/main.8ac7bd30.chunk.js"
+  ]
+}
